@@ -10,4 +10,5 @@ catkin_package(
   CATKIN_DEPENDS sensor_msgs
 )
 
-
+catkin_install_python(PROGRAMS scripts/camera_info_manager_node
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
