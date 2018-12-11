@@ -36,7 +36,7 @@ are a few example situations where one could use this node.
 
 * Usage
 
-  The package only provides a single node =camera_info_manager_node.py= that
+  The package only provides a single node =camera_info_manager_node= that
   essentially only instantiates an instance of the
   =camera_info_manager.CameraInfoManager= class, and then publishes the loaded
   camera data on the =camera_info= topic at a set frequency. As a result, nearly
